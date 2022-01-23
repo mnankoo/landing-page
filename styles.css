@@ -32,6 +32,7 @@ ul {
     justify-content: center;
     padding: 24px; 
     gap: 8px;
+    colour: #BCBEB6;
 }
 
 .main-info { }
@@ -67,8 +68,7 @@ ul {
 .quote-text {
     font-style: italic;
     font-weight: lighter;
-    font-siz: 24px;
-    
+    font-size: 24px;  
  }
 
 .quote-author { 
@@ -80,19 +80,22 @@ ul {
 
 .sign-up-container { 
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
     background-color: #696F4F; 
     color: #BCBEB6; 
     margin: 24px;
+    padding: 12px;
+    font-size: 18px;
 }
 
 .sign-up-text { 
+    gap: 5px;
     text-align: left;
-
 }
 
-.sign-up-button { }
+.sign-up-button { 
+}
 
 .footer {
     color: #BCBEB6;
@@ -100,5 +103,4 @@ ul {
     margin: 4px;
     padding: 2px;
     text-align:center
-
  }
