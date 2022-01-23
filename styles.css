@@ -2,8 +2,8 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .header {
-    background-color: #1f2937;
-    color: white;
+    background-color: #6A433A; 
+    color: #BCBEB6;
     text-align: center;
     display: flex;
     flex-flow: row wrap;
@@ -17,14 +17,14 @@ h1 {
 
 p {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #BCBEB6;
     margin: 32px;
 }
 
 ul {
     list-style-type: none;
     font-size: 18px;
-    color: #e5e7eb;
+    color: #BCBEB6;
     display: flex;
     margin: 0;
     padding: 0;
@@ -33,12 +33,12 @@ ul {
 
 .logo {
     font-size: 24px;
-    color: #f9faf8;
+    color: #BCBEB6;
 }
 
 .call {
-    background-color: #3882f6;
-    color: white;
+    background-color: #696F4F;
+    color: #383024;
     display: flex;
     
 }
@@ -51,10 +51,10 @@ h2 {
 }
 
 .quote {
-    background-color: #e5e7eb;
+    background-color: #BCBEB6;
     font-size: 36px;
     font-style: italic;
-    color: #1f2837;
+    color: #383024;
     font-weight: lighter;
     padding: 32px;
     text-align: center;
@@ -106,8 +106,8 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1f2937;
-    color: white;
+    background-color: #6A433A;
+    color: #BCBEB6;
     padding: 8px;
     margin: 8px;
 }
