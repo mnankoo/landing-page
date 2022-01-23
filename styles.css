@@ -70,3 +70,8 @@ h2 {
     padding: 32px;
     gap: 52px;
 }
+
+img {
+    height: 200px;
+    width: auto;
+}
