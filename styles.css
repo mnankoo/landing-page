@@ -1,91 +1,87 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-ul {
+.main {
+    background-color: #6A433A;
+    colour: #BCBEB6;
+}
+
+.nav {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header-logo { 
+    margin: 10px 30px 5px;
+}
+
+ul { 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 16px; 
     list-style-type: none;
-    font-size: 18px;
-    color: #BCBEB6;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 16px;
+    margin: 10px 30px 5px;
 }
 
-.logo {
-    font-size: 24px;
-    color: #BCBEB6;
+.main-content { 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 24px; 
+    gap: 8px;
 }
 
-.call {
-    background-color: #696F4F;
-    color: #383024;
-    display: flex;
-    
-}
+.main-info { }
 
-h2 {
-    font-size: 36px;
-    font-weight: 900;
+.info {
     text-align: center;
-    
-}
+ }
 
-.quote {
+ img {
+     width: 300px;
+     height: 400px;
+ }
+
+.info-heading { }
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px; 
+ }
+
+.product-info { }
+
+.quote-container { 
     background-color: #BCBEB6;
-    font-size: 36px;
-    font-style: italic;
-    color: #383024;
-    font-weight: lighter;
-    padding: 32px;
-    text-align: center;
-    margin: 16px;
-}
-
-.bold {
-    font-weight: 700;
-    text-align: right;
-    font-size: 24px;
-}
-
-.card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 32px;
-    gap: 52px;
-}
-
-img {
-    height: 300px;
-    width: auto;
-}
-
-.content {
     display: flex;
     justify-content: center;
-    gap: 16px;
-    align-items: center;
-}
-
-.title {
-    padding: 16px; 
-    width: 300px;
-}
-
-button {
+    margin: 24px; 
     padding: 16px;
 }
 
-h3 {
-    text-align: center;
-    padding: 0;
-    margin: 0;
+.quote-text {
+    font-style: italic;
+    font-weight: lighter;
+    font-siz: 24px;
+    
+ }
+
+.quote-author { 
+    font-weight: bold; 
+    font-size: 18px;
+    text-align: right;
+    margin: 15px;
 }
 
-.footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #6A433A;
-    color: #BCBEB6;
-    padding: 8px;
-    margin: 8px;
-}
+.sign-up-container { }
+
+.sign-up-text { }
+
+.sign-up-button { }
+
+.footer { }
